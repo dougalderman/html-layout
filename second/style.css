@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.column {
+  width: calc(100%/3);
+  border: 1px solid red;
+  height: 100vh;
+  float: left;
+}
+
+.left {
+	background-color: #4a90e2;
+
+}
+
+.middle {
+  background-color: #50e3c2;
+}
+
+.right {
+	background-color: #b8e986;
+  padding-top: calc(100vh - 30vh)
+}
+
+.img-placeholder {
+  background-color: red;
+  width: 100%;
+  height: 30vh;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  line-height: 30vh;
+}
